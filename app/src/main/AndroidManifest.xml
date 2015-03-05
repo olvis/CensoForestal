@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trackm3.censoforestal" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico_01_arbol_censo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Portada"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Conexion"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_conexion"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ConexionTrack"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_conexion_track"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Dasometrico"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_dasometrico"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Directo"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_directo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".DirectoFaja"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_directo_faja"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Equipo"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_equipo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Foto"
+            android:label="@string/title_activity_foto"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".GPSxy"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_gpsxy"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ListaEspecie"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_lista_especie"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ListaFuncion"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_lista_funcion"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ListaGrupo"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_lista_grupo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ListaPersona"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_lista_personal"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Otros"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_otros"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Personal"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_personal"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Sistematico"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_sistematico"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".SistematicoDasometrico"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_sistematico_dasometrico"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".SistematicoPica"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_sistematico_pica"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".Track"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_track"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ListaEquipo"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_lista_equipo"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ReferenciaXY"
+            android:label="@string/title_activity_referencia_xy"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+    </application>
+
+</manifest>

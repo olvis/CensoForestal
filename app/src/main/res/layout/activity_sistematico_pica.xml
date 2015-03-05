@@ -1,0 +1,441 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff585857"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.trackm3.censoforestal.SistematicoPica"
+    tools:ignore="ContentDescription"
+    android:id="@+id/marco_pp"
+    android:paddingTop="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DatosFajaPica"
+        android:id="@+id/titulo"
+        android:textColor="#ffffffff"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/control">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/Seguim_origen"
+            android:id="@+id/predecesor"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="#ffffffff"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Registro"
+            android:textSize="12sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/registro"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingRight="5dp" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navegacion"
+        android:paddingTop="5dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_auxiliar"
+            android:src="@drawable/ico_08_menu_aux"
+            android:background="#ff585857" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/invisible"
+            android:background="#ff585857"
+            android:layout_marginLeft="5dp"
+            android:visibility="invisible"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/limpiar"
+            android:src="@drawable/ico_11_limpiar"
+            android:background="#ff585857"
+            android:layout_gravity="top" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guardar"
+            android:src="@drawable/ico_06_guard"
+            android:background="#ff585857"
+            android:baselineAlignBottom="false"
+            android:layout_marginLeft="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/atras"
+            android:src="@drawable/ico_05_flecha_atr"
+            android:background="#ff585857"
+            android:layout_marginLeft="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adelante"
+            android:src="@drawable/ico_07_flecha_adel"
+            android:background="#ff585857"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/vista_vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:id="@+id/tabla1">
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/linea1">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/Faja"
+                        android:id="@+id/lbl_faja"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/Linea"
+                        android:id="@+id/lbl_linea_censo"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="#ffffffff" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/linea2">
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/combo_faja"
+                        android:layout_column="0"
+                        android:layout_weight="1"
+                        android:background="@drawable/marco1"
+                        android:prompt="@id/combo_faja"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="4dp" />
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/linea_inicio"
+                        android:layout_column="0"
+                        android:layout_weight="1"
+                        android:background="@drawable/marco1"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/linea3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/Pica"
+                        android:id="@+id/pica"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="#ffffffff" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/Azimut"
+                        android:id="@+id/azimut"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="#ffffffff" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/linea4"
+                    android:layout_height="50dp">
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/combo_pica"
+                        android:layout_weight="1"
+                        android:background="@drawable/marco1"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="4dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/txt_grados"
+                        android:layout_weight="1"
+                        android:gravity="fill_vertical|center_horizontal"
+                        android:textColorHint="#ffb9b9b9"
+                        android:textSize="17sp"
+                        android:inputType="numberDecimal"
+                        android:textColor="#fffeff17"
+                        android:theme="@style/Base.Widget.AppCompat.EditText"
+                        android:background="@drawable/marco1"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="4dp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/linea5"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp" >
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/invisible2"
+                        android:layout_weight="0.5"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingBottom="4dp"
+                        android:background="#ff585857" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/editText2"
+                        android:layout_weight="0.85"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#ffffffff"
+                        android:textSize="15sp"
+                        android:text="@string/HoraInicio" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/editText3"
+                        android:layout_weight="0.85"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#ffffffff"
+                        android:textSize="15sp"
+                        android:text="@string/HoraFinal" />
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/invisible3"
+                        android:layout_weight="0.5"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:background="#ff585857" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/linea6"
+                    android:layout_gravity="center_vertical">
+
+                    <ImageButton
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/captura_hr_sistema1"
+                        android:layout_weight="0.5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingBottom="4dp"
+                        android:src="@drawable/ico_17_reloj"
+                        android:background="#ff585857" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:inputType="time"
+                        android:ems="10"
+                        android:id="@+id/hora_inicio"
+                        android:layout_weight="0.85"
+                        android:background="@drawable/marco1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#fff2ff2d"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:inputType="time"
+                        android:ems="10"
+                        android:id="@+id/hora_final"
+                        android:layout_weight="0.85"
+                        android:background="@drawable/marco1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#fff2ff2d"
+                        android:textSize="15sp" />
+
+                    <ImageButton
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/captura_hr_sistema2"
+                        android:layout_weight="0.5"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="8dp"
+                        android:paddingBottom="4dp"
+                        android:src="@drawable/ico_17_reloj"
+                        android:background="#ff585857" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linea7"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="5dp">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:text="@string/XYincio"
+                        android:id="@+id/xy_inicio"
+                        android:layout_weight="1"
+                        android:background="@drawable/marco7"
+                        android:textSize="15sp"
+                        android:hint="@string/XYincio"
+                        android:layout_column="0"
+                        android:layout_margin="4dp"
+                        android:textColor="#ff000000"
+                        android:onClick="VincularXYgpsInicio"/>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:text="@string/XYfinal"
+                        android:id="@+id/xy_final"
+                        android:layout_weight="1"
+                        android:background="@drawable/marco8"
+                        android:textSize="15sp"
+                        android:hint="@string/Foto"
+                        android:layout_column="1"
+                        android:layout_margin="4dp"
+                        android:textColor="#ff000000"
+                        android:onClick="VincularXYgpsFin"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/linea8"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="15dp">
+
+                    <Button
+                        android:text="@string/Arbol"
+                        android:id="@+id/mapeo"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/marco6"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:onClick="VincularMapeoArb"
+                        android:textColor="#ff000000"
+                        android:textColorHint="#ff000000"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <Button
+                        android:text="@string/PuntoReferencia"
+                        android:id="@+id/punto_referencia"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/marco5"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:onClick="VincularPuntoReferencia"
+                        android:textColor="#ff000000"
+                        android:textColorHint="#ff000000"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

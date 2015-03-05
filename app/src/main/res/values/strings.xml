@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Census</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_conexion">Conexion</string>
+    <string name="title_activity_conexion_track">ConexionTrack</string>
+    <string name="title_activity_dasometrico">Dasometrico</string>
+    <string name="title_activity_directo">Directo</string>
+    <string name="title_activity_directo_faja">DirectoFaja</string>
+    <string name="title_activity_equipo">Equipo</string>
+    <string name="title_activity_foto">Foto</string>
+    <string name="title_activity_gpsxy">GPSxy</string>
+    <string name="title_activity_lista_equipo">ListaEquipo</string>
+    <string name="title_activity_lista_especie">Especies</string>
+    <string name="title_activity_lista_funcion">ListaFuncion</string>
+    <string name="title_activity_lista_grupo">ListaGrupo</string>
+    <string name="title_activity_lista_personal">ListaPersonas</string>
+    <string name="title_activity_otros">Otros</string>
+    <string name="title_activity_personal">Personal</string>
+    <string name="title_activity_portada">Portada</string>
+    <string name="title_activity_sistematico">Sistematico</string>
+    <string name="title_activity_sistematico_dasometrico">SistematicoDasometrico</string>
+    <string name="title_activity_sistematico_pica">SistematicoPica</string>
+    <string name="title_activity_track">Track</string>
+    <!-- Para uso dentro de pantallas-->
+    <string name="AdicionEspecies">INGRESO DE ESPECIES</string>
+    <string name="AdicionEquipo">INGRESO DE EQUIPO</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Altura_comercial">Altura comercial</string>
+    <string name="Arbol">Árbol</string>
+    <string name="Area">Área de Trabajo</string>
+    <string name="AutoPrecision">Auto Precisión Final</string>
+    <string name="AutoTrack">Auto Track</string>
+    <string name="AutoX">Auto XCOORD</string>
+    <string name="AutoXY">Auto XY</string>
+    <string name="AutoY">Auto YCOORD</string>
+    <string name="Azimut">Azimut (grados) </string>
+    <string name="Bloque">Bloque</string>
+    <string name="btn_mapeo">boton_mapeo</string>
+    <string name="btn_mapeo2">Mapeo de árboles 2</string>
+    <string name="Calidad_fuste">Calidad</string>
+    <string name="CensoSistematico">Censo Sistemático</string>
+    <string name="Codigo_barra">Código de Barra IIIIIIIII</string>
+    <string name="CodigoArbol">Código árbol</string>
+    <string name="Conexion">Censo por conexión</string>
+    <string name="ConceptoPago">Concepto de pago</string>
+    <string name="Conservacion">Conservación</string>
+    <string name="Coordenadas">Coordenadas de ubicación</string>
+    <string name="DAP">Diámetro</string>
+    <string name="DatosTrack">Datos de track</string>
+    <string name="Derecha_arbol">Derecha</string>
+    <string name="Directo">Censo Directo</string>
+    <string name="DatosFajaPica">Datos Faja y Pica</string>
+    <string name="DatosArbol">Datos de árbol</string>
+    <string name="DatosFaja">Datos de Faja</string>
+    <string name="distancia_horizontal">pos. costado</string>
+    <string name="distancia_vertical">pos. frente</string>
+    <string name="Duracion">Duración:XXXXX</string>
+    <string name="Equipo">Equipo</string>
+    <string name="EquipoTrabajo">Equipos de Trabajo</string>
+    <string name="Especie">Especie</string>
+    <string name="Faja">Faja</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Foto">Foto</string>
+    <string name="FotoPersonal">Foto Personal</string>
+    <string name="FotoEquipo">Foto Equipo</string>
+    <string name="ArchivoFotografico">Archivo fotográfico</string>
+    <string name="Funcion_trabajador">Función</string>
+    <string name="Grado">Azimut (grados) </string>
+    <string name="Grupo">Grupo</string>
+    <string name="HoraFinal">Hora Final</string>
+    <string name="HoraFinal2">Hora Final:XXXXX</string>
+    <string name="HoraInicio">Hora Inicio</string>
+    <string name="HoraInicio2">Hora Inicio:XXXXX</string>
+    <string name="ID">ID:_____</string>
+    <string name="Identificaciion"> No. identificación</string>
+    <string name="Ingreso_funciones">INGRESO DE FUNCIONES</string>
+    <string name="Ingreso_grupos">INGRESO DE GRUPOS</string>
+    <string name="Ingreso_personal">INGRESO DE PERSONAL</string>
+    <string name="Ingreso_track">INGRESO DE TRACK</string>
+    <string name="IntegrantesGrupo">Integrantes de Grupo</string>
+    <string name="Izquierda_arbol">Izquierda</string>
+    <string name="Linea">Línea</string>
+    <string name="Longitud">Longitud:XXXXX</string>
+    <string name="Mapeo">Mapeo</string>
+    <string name="Nombre_persona">Nombre y apellidos</string>
+    <string name="Nombre_trabajador">Nombre de trabajador</string>
+    <string name="Nueva_funcion">Nueva función de personal</string>
+    <string name="NuevaEspecie">Nueva especie</string>
+    <string name="NuevoEquipo">Nuevo equipo</string>
+    <string name="nuevo_grupo">Nuevo grupo de trabajo</string>
+    <string name="Observ">Observaciones</string>
+    <string name="Origen_foto">Detalle de fotografía</string>
+    <string name="Otro">Otro</string>
+    <string name="Personal">Personal</string>
+    <string name="PersonalEquipo">Personal/Equipo de Grupo</string>
+    <string name="Pica">Pica</string>
+    <string name="Precision">Precisión</string>
+    <string name="PuntoGPS">Punto GPS</string>
+    <string name="PuntoReferencia">Referencia</string>
+    <string name="Registro">Registro \"i\" de \"n\"</string>
+    <string name="ReferenciaXY">Registro puntos de Referencia</string>
+    <string name="ReferenciaXYnombre">Nombre del punto de referencia</string>
+    <string name="Seguim_arb_pica">árb/pica_i/pica_f=xxxx</string>
+    <string name="Seguim_arbol">árbol=XXXXX</string>
+    <string name="Seguim_faja_track">Faja/Track=XXXX</string>
+    <string name="Seguim_origen">Predecesor:______</string>
+    <string name="Seguim_pica">pica=xxxx</string>
+    <string name="SeguimFaja">faja=xxxxx</string>
+    <string name="Seguimiento_grupo">grupo=XXXX</string>
+    <string name="Sistematico">Sistemático</string>
+    <string name="Telefono">Teléfono</string>
+    <string name="Temporal">Temporal</string>
+    <string name="Testear">Testear GPS</string>
+    <string name="TipoPersona">Tipo de trabajador</string>
+    <string name="titulo_posicion">Posición del árbol en relación a la pica</string>
+    <string name="TrackGPS">Track GPS</string>
+    <string name="UnidadPago">Unidad de pago</string>
+    <string name="ValorPago">Valor de pago</string>
+    <string name="Xgps">XCOORD GPS</string>
+    <string name="XY_arbol">XY árbol</string>
+    <string name="XYfinal">X,Y Final Pica</string>
+    <string name="XYincio">X,Y Inicio Pica</string>
+    <string name="Ygps">YCOORD GPS</string>
+    <string name="Zona">Zona UTM</string>
+    <string name="ZonaCapturaAutomatica">Región de captura automática</string>
+    <string name="ZonaLlenadoManual">Región de llenado manual</string>
+    <string name="CensoForestal">Censo Forestal</string>
+    <!-- Matrices utilizadas en spinner. En la app final esto deberá leerse desde un archivo enviado por la PC-->
+    <string-array name="lista_especie">
+        <item> </item>
+        <item>Especie 1</item>
+        <item>Especie 2</item>
+        <item>Especie 3</item>
+        <item>Especie 4</item>
+        <item>Especie i</item>
+    </string-array>
+
+    <string-array name="lista_calidad_fuste">
+        <item> </item>
+        <item>Calidad 1</item>
+        <item>Calidad 2</item>
+        <item>Calidad 3</item>
+        <item>Calidad i</item>
+    </string-array>
+
+    <string-array name="lista_conservacion">
+        <item> </item>
+        <item>Tipo 1</item>
+        <item>Tipo 2</item>
+        <item>Tipo 3</item>
+        <item>Tipo 4</item>
+        <item>Tipo i</item>
+    </string-array>
+
+    <string-array name="lista_grupo">
+        <item> </item>
+        <item>Grupo 1</item>
+        <item>Grupo 2</item>
+        <item>Grupo 3</item>
+        <item>Grupo 4</item>
+        <item>Grupo i</item>
+    </string-array>
+
+    <string-array name="lista_faja">
+        <item> </item>
+        <item>Faja 1</item>
+        <item>Faja 2</item>
+        <item>Faja 3</item>
+        <item>Faja 4</item>
+        <item>Faja i</item>
+    </string-array>
+
+    <string-array name="lista_linea">
+        <item> </item>
+        <item>Línea 1</item>
+        <item>Línea 2</item>
+        <item>Línea 3</item>
+        <item>Línea 4</item>
+        <item>Línea i</item>
+    </string-array>
+
+    <string-array name="lista_pica">
+        <item> </item>
+        <item>Pica 1</item>
+        <item>Pica 2</item>
+        <item>Pica 3</item>
+        <item>Pica 4</item>
+        <item>Pica i</item>
+    </string-array>
+
+    <string-array name="lista_area">
+        <item> </item>
+        <item>Area 1</item>
+        <item>Area 2</item>
+        <item>Area 3</item>
+        <item>Area 4</item>
+        <item>Area i</item>
+    </string-array>
+
+    <string-array name="lista_bloque">
+        <item> </item>
+        <item>Bloque 1</item>
+        <item>Bloque 2</item>
+        <item>Bloque 3</item>
+        <item>Bloque 4</item>
+        <item>Bloque i</item>
+    </string-array>
+
+    <string-array name="lista_trabajador">
+        <item> </item>
+        <item>Trabajador 1</item>
+        <item>Trabajador 2</item>
+        <item>Trabajador 3</item>
+        <item>Trabajador 4</item>
+        <item>Trabajador i</item>
+    </string-array>
+
+    <string-array name="lista_funcion">
+        <item> </item>
+        <item>Función 1</item>
+        <item>Función 2</item>
+        <item>Función 3</item>
+        <item>Función 4</item>
+        <item>Función i</item>
+    </string-array>
+
+    <string-array name="lista_equipo">
+        <item> </item>
+        <item>Equipo 1</item>
+        <item>Equipo 2</item>
+        <item>Equipo 3</item>
+        <item>Equipo 4</item>
+        <item>Equipo i</item>
+    </string-array>
+
+    <string-array name="lista_autotrack">
+        <item> </item>
+        <item>Autotrack 1</item>
+        <item>Autotrack 2</item>
+        <item>Autotrack 3</item>
+        <item>Autotrack 4</item>
+        <item>Autotrack i</item>
+    </string-array>
+
+    <string-array name="lista_gpstrack">
+        <item> </item>
+        <item>GPStrack 1</item>
+        <item>GPStrack 2</item>
+        <item>GPStrack 3</item>
+        <item>GPStrack 4</item>
+        <item>GPStrack i</item>
+    </string-array>
+
+    <string-array name="lista_tipo_persona">
+        <item> </item>
+        <item>Empleado</item>
+        <item>Contratista</item>
+    </string-array>
+
+    <string-array name="concepto_pago">
+        <item></item>
+        <item>alimentación</item>
+        <item>equipos</item>
+        <item>hospedaje</item>
+        <item>incentivo</item>
+        <item>jornal</item>
+        <item>materiales</item>
+        <item>medicina</item>
+        <item>otros pagos</item>
+        <item>ropa</item>
+        <item>salario/sueldo</item>
+        <item>seguros</item>
+        <item>transporte</item>
+        <item>viáticos</item>
+        <item>pago general</item>
+    </string-array>
+
+    <string-array name="unidad_pago">
+        <item> </item>
+        <item>día</item>
+        <item>día feriado</item>
+        <item>día paralizado</item>
+        <item>semana</item>
+        <item>quincena</item>
+        <item>mes</item>
+        <item>actividad</item>
+        <item>kilómetro</item>
+        <item>m3r</item>
+        <item>hectárea</item>
+        <item>árbol</item>
+        <item>general</item>
+    </string-array>
+        <string name="title_activity_referencia_xy">ReferenciaXY</string>
+
+
+
+</resources>
