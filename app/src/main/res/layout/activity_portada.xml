@@ -3,7 +3,7 @@
     android:id="@+id/portada_censo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffaf07"
+    android:background="#ff7d95ae"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:adjustViewBounds="false"
-        android:background="#ffffaf07"
+        android:background="#ff7d95ae"
         android:scaleType="fitStart"
         android:src="@drawable/ico_00_menu_princ" />
 <ScrollView
@@ -85,7 +85,7 @@
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="#ffff6913"
+                android:background="#ff7d95ae"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -93,7 +93,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ffffaf07"
+                    android:background="#ff7d95ae"
                     android:src="@drawable/ico_02_censo_sist"
                     android:onClick="VincularSistem"/>
 
@@ -102,7 +102,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ffffaf07"
+                    android:background="#ff7d95ae"
                     android:src="@drawable/ico_03_censo_conex"
                     android:onClick="VincularConexion"/>
 
@@ -111,7 +111,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ffffaf07"
+                    android:background="#ff7d95ae"
                     android:src="@drawable/ico_04_censo_direct"
                     android:onClick="VincularDirect"/>
             </LinearLayout>
